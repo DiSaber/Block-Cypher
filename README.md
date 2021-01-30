@@ -4,6 +4,6 @@ To install the program just download "Block Cypher.exe" from above or from [here
 ## Best practices
 First and foremost I highly suggest you write down your password in a secure location as there is no way to recover it. You should use the contacts menu to add public keys so you only exchange keys once. If you want certain messages you recieve to be safe from deletion you may want to store the encrypted copy somewhere on your device.
 ## Resetting Password
-Unfortunately there is no way to recover your password as AES 256 is irreversible. You can however delete the file titled "BlockCypherKeys.dat" at the directory "C:\Users\\{Username}\AppData\Roaming" to reset the application.
+Unfortunately there is no way to recover your password as AES 256 is irreversible. You can however delete the file titled "BlockCypherKeys.dat" and "BlockCypherContacts.dat" at the directory "C:\Users\\{Username}\AppData\Roaming" to reset the application.
 ## Technical specifications
 I use 8192 bit RSA encryption for the message sharing and AES 256 to securly store the private keys.
