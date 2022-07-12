@@ -6,4 +6,4 @@ First and foremost I highly suggest you write down your password in a secure loc
 ## Resetting Password
 Unfortunately there is no way to recover your password as AES 256 is irreversible. You can however delete the file titled "BlockCypherKeys.dat" and "BlockCypherContacts.dat" at the directory "C:\Users\\{Username}\AppData\Roaming" to reset the application.
 ## Technical specifications
-I use 8192 bit RSA encryption for the message sharing and AES 256 to securly store the private keys.
+I use 8192 bit RSA encryption for the message sharing and AES 256 to securly store the private keys and contacts list.
